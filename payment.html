@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <!-- Dependency Styles -->
+    <link
+      rel="stylesheet"
+      href="./dependencies/bootstrap/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="dependencies/fontawesome/css/all.min.css"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="dependencies/wow/css/animate.css"
+      type="text/css"
+    />
+
+    <!-- Site Style -->
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/icons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/icons/android-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/icons/android-icon-192x192.png"
+    />
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" /> -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/favicon-32x32.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/icons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/icons/ms-icon-70X70.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div id="main_content">
+      <!--=========================-->
+      <!--=        Navbar         =-->
+      <!--=========================-->
+      <header class="site-header header-two header_trans-fixed" data-top="92">
+        <div class="container">
+          <div class="header-inner">
+            <div class="site-mobile-logo">
+              <a href="index.html" class="logo">
+                <!-- <img
+                  src="assets/img/logo.png"
+                  alt="site logo"
+                  class="main-logo"
+                /> -->
+                <img
+                  src="assets/img/logo.png"
+                  alt="site logo"
+                  class="sticky-logo"
+                />
+              </a>
+
+              <a class="biman" style="color: #0ea5e9" href=""
+                ><span class="big">B</span>iman<span class="big">T</span
+                >icket.com</a
+              >
+
+              <div style="margin-top: 10px">
+                <a class="marquee">
+                  <p class="mobile-marquee">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:+8801773667000">+8801773667000</a>
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!-- /.site-mobile-logo -->
+
+            <div class="toggle-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <!-- /.toggle-menu -->
+            <nav class="site-nav nav-two">
+              <div class="close-menu">
+                <span>Close</span>
+                <i class="ei ei-icon_close"></i>
+              </div>
+
+              <div
+                class="logo-continer"
+                style="display: flex; align-items: center"
+              >
+                <div class="site-logo">
+                  <a href="index.html" class="logo">
+                    <img
+                      src="assets/img/logo.png"
+                      alt="site logo"
+                      class="main-logo"
+                    />
+                    <img
+                      src="assets/img/logo.png"
+                      alt="site logo"
+                      class="sticky-logo"
+                      style="display: none"
+                    />
+                  </a>
+                </div>
+
+                <div>
+                  <h3 style="color: #0ea5e9; margin-top: 10px">
+                    <span class="big-m">B</span>iman<span class="big-m">T</span
+                    >icket.com
+                  </h3>
+
+                  <div>
+                    <a style="" class="marque">
+                      <p id="desktop-marque">
+                        <i class="fas fa-phone-alt"></i>
+                        <a style="font-weight: bold" href="tel:+8801773667000"
+                          >+8801773667000</a
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-wrapper" data-top="992">
+                <ul class="site-main-menu">
+                  <li>
+                    <i style="color: #0ea5e9" class="fas fa-plane"></i>
+                    <a href="#">Flight</a>
+                  </li>
+
+                  <li class="">
+                    <i style="color: #0ea5e9" class="fas fa-hotel"></i>
+                    <a href="#">Hotel</a>
+                  </li>
+
+                  <li>
+                    <i style="color: #0ea5e9" class="fas fa-address-card"></i>
+                    <a href="./about.html">About Us</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.menu-wrapper -->
+            </nav>
+            <!-- /.site-nav -->
+          </div>
+          <!-- /.header-inner -->
+        </div>
+        <!-- /.container -->
+      </header>
+      <!-- /.site-header -->
+
+      <!-- ABOUT [BEGIN] -->
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="about-content">
+                <div class="section-title">
+                  <h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
+                    Payment Security
+                  </h2>
+                </div>
+                <!-- /.section-title -->
+
+                <p class="description wow pixFadeUp" data-wow-delay="0.4s">
+                  Dear customer the transaction which you complete in
+                  BimanTicket.com is absolutely safe and secure for your
+                  convenience. In this web site we have intrigated the most
+                  updated technology (SSL: Secured Socket Layer), till now which
+                  is the best technology in online security system. In the
+                  checkout transaction your credit card information is encrypted
+                  into bits by our encryption process and then the encrypted
+                  information cannot be read out while transmitting through the
+                  internet device to device. We try to provide the highest level
+                  of security for your card information make safe and secure.
+                  Besides, we do not keep any card details and all card related
+                  information is stored at the respective bank after selecting
+                  the payment gateway in the website.
+                </p>
+
+                <p class="description">
+                  During your check out If you face any doubt regarding Payment
+                  Security issue about our payment gateway and security , please
+                  feel free to call us at +8801773667000
+                </p>
+
+                <p class="description">
+                  NOTE: If you take services from kiwi.com using our website by
+                  redirecting, please be concerned that you are providing
+                  payment to kiwi.com all liabilities will be between kiwi.com
+                  and you incase of refund, reissue and other issues.
+                </p>
+
+                <!-- /.singiture -->
+              </div>
+              <!-- /.about-content -->
+            </div>
+            <!-- /.col-lg-12 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- ABOUT [END] -->
+
+      <!--=========================-->
+      <!--=        Footer         =-->
+      <!--=========================-->
+      <footer
+        id="footer"
+        class="footer-job-board wow fadeInDown bg-f"
+        data-wow-delay="0.2s"
+      >
+        <div class="container">
+          <div class="footer-inner">
+            <div class="row wow fadeInUp">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="widget footer-widget footer-widget-one">
+                  <a href="#" class="footer-logo"
+                    ><img src="assets/img/logo.png" alt="biman"
+                  /></a>
+
+                  <ul class="footer-social-link">
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+
+                  <p class="copyright-text">
+                    Copyright © 2022.
+                    <a href="index.html">BimanTicket.com.</a> All Rights
+                    Reserved.
+                  </p>
+                </div>
+                <!-- /.widget footer-widget -->
+              </div>
+              <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="widget footer-widget">
+                  <h3 class="widget-title">Address</h3>
+
+                  <ul class="footer-menu">
+                    <li>
+                      <a>28, 1/C Toyenbee Circular Road</a>
+                    </li>
+                    <li><a>Rahmania International Complex</a></li>
+                    <li><a>6th floor, room no: 9</a></li>
+                    <li><a>Motijheel C/A Dhaka</a></li>
+                    <li style="display: flex; align-items: center">
+                      <i style="color: #fff" class="fas fa-phone-alt"></i>
+                      <a style="margin-left: 5px" href="tel:+8801773667000"
+                        >+8801773667000</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.widget footer-widget -->
+              </div>
+              <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+              <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="widget footer-widget">
+                  <h3 class="widget-title">Company</h3>
+
+                  <ul class="footer-menu">
+                    <li><a href="#">Flight</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                  </ul>
+                </div>
+                <!-- /.widget footer-widget -->
+              </div>
+              <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="widget footer-widget">
+                  <h3 class="widget-title">Legal</h3>
+
+                  <ul class="footer-menu">
+                    <li><a href="./condition.html">Terms and Conditions</a></li>
+                    <li><a href="./faq.html">Faq</a></li>
+                    <li><a href="./payment.html">Fees and Charges</a></li>
+                    <li><a href="./privacy.html">Privacy Policy</a></li>
+                  </ul>
+                </div>
+                <!-- /.widget footer-widget -->
+              </div>
+              <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+              <div class="widget footer-widget footer-widget-mobile">
+                <a href="#" class="footer-logo"
+                  ><img src="assets/img/logo.png" alt="biman"
+                /></a>
+
+                <ul class="footer-social-link">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+
+                <p class="copyright-text">
+                  Copyright © 2022.
+                  <a href="index.html">BimanTicket.com.</a> All Rights Reserved.
+                </p>
+              </div>
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.footer-inner -->
+        </div>
+        <!-- /.container -->
+      </footer>
+      <!-- /#footer -->
+    </div>
+
+    <!-- modal -->
+    <!-- <div class="modal fade" id="myModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Page is Under construction</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Please call us for Ticket:</p>
+            <div>
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:+8801773667000">+8801773667000</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Dependency Scripts -->
+    <script src="dependencies/jquery/jquery.min.js"></script>
+    <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dependencies/jquery.appear/jquery.appear.js"></script>
+    <script src="dependencies/wow/js/wow.min.js"></script>
+    <script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
+    <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+
+    <script>
+      $(window).on("load", function () {
+        $("#myModal").modal("show");
+      });
+    </script>
+
+    <!-- Site Scripts -->
+    <script src="./app.js"></script>
+    <script src="./header.js"></script>
+  </body>
+</html>

@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <!-- Dependency Styles -->
+    <link
+      rel="stylesheet"
+      href="./dependencies/bootstrap/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="dependencies/fontawesome/css/all.min.css"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="dependencies/wow/css/animate.css"
+      type="text/css"
+    />
+
+    <!-- Site Style -->
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/icons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/icons/android-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/icons/android-icon-192x192.png"
+    />
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" /> -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/favicon-32x32.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/icons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/icons/ms-icon-70X70.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div id="main_content">
+      <!--=========================-->
+      <!--=        Navbar         =-->
+      <!--=========================-->
+      <header class="site-header header-two header_trans-fixed" data-top="92">
+        <div class="container">
+          <div class="header-inner">
+            <div class="site-mobile-logo">
+              <a href="index.html" class="logo">
+                <!-- <img
+                  src="assets/img/logo.png"
+                  alt="site logo"
+                  class="main-logo"
+                /> -->
+                <img
+                  src="assets/img/logo.png"
+                  alt="site logo"
+                  class="sticky-logo"
+                />
+              </a>
+
+              <a class="biman" style="color: #0ea5e9" href=""
+                ><span class="big">B</span>iman<span class="big">T</span
+                >icket.com</a
+              >
+
+              <div style="margin-top: 10px">
+                <a class="marquee">
+                  <p class="mobile-marquee">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:+8801773667000">+8801773667000</a>
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!-- /.site-mobile-logo -->
+
+            <div class="toggle-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <!-- /.toggle-menu -->
+            <nav class="site-nav nav-two">
+              <div class="close-menu">
+                <span>Close</span>
+                <i class="ei ei-icon_close"></i>
+              </div>
+
+              <div
+                class="logo-continer"
+                style="display: flex; align-items: center"
+              >
+                <div class="site-logo">
+                  <a href="index.html" class="logo">
+                    <img
+                      src="assets/img/logo.png"
+                      alt="site logo"
+                      class="main-logo"
+                    />
+                    <img
+                      src="assets/img/logo.png"
+                      alt="site logo"
+                      class="sticky-logo"
+                      style="display: none"
+                    />
+                  </a>
+                </div>
+
+                <div>
+                  <h3 style="color: #0ea5e9; margin-top: 10px">
+                    <span class="big-m">B</span>iman<span class="big-m">T</span
+                    >icket.com
+                  </h3>
+
+                  <div>
+                    <a style="" class="marque">
+                      <p id="desktop-marque">
+                        <i class="fas fa-phone-alt"></i>
+                        <a style="font-weight: bold" href="tel:+8801773667000"
+                          >+8801773667000</a
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-wrapper" data-top="992">
+                <ul class="site-main-menu">
+                  <li>
+                    <i style="color: #0ea5e9" class="fas fa-plane"></i>
+                    <a href="#">Flight</a>
+                  </li>
+
+                  <li class="">
+                    <i style="color: #0ea5e9" class="fas fa-hotel"></i>
+                    <a href="#">Hotel</a>
+                  </li>
+
+                  <li>
+                    <i style="color: #0ea5e9" class="fas fa-address-card"></i>
+                    <a href="./about.html">About Us</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.menu-wrapper -->
+            </nav>
+            <!-- /.site-nav -->
+          </div>
+          <!-- /.header-inner -->
+        </div>
+        <!-- /.container -->
+      </header>
+      <!-- /.site-header -->
+
+      <!-- FAQ [BEGIN] -->
+      <section class="faqs">
+        <div class="container">
+          <h3 class="sub-title" style="text-align: center; margin-bottom: 50px">
+            Frequently Asked Questions
+          </h3>
+          <div class="tabs-wrapper">
+            <div class="tab-content">
+              <div
+                class="tab-pane fade show active"
+                id="design"
+                role="tabpanel"
+                aria-labelledby="design-tab"
+              >
+                <div id="accordionsing" class="faq faq-two pixFade">
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          What type of services can I get from BimanTicket.com?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          We are quite pleased to inform you that currently we
+                          offer all the necessary services based on your travel
+                          needs from our platform. You can book your air
+                          tickets, hotel booking, tour packages and transfer
+                          services smoothly and safely.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          Do online bookings require immediate payment?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Our website application is designed such a way that
+                          our clients can search and then book product. After
+                          booking the product clients have to checkout for it
+                          then a check out payment option will appear to them.
+                          We allow VISA CARD, MASTER CARD and AMERICAN EXPRESS,
+                          bkas, Rocket, Bank deposit and Transfer system.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          What are the payment methods for BimanTicket.com?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          We have several types of payment options available for
+                          our clients to pay for services. For online payment
+                          client can use his/her VISA CARD, MASTER CARD and
+                          AMERICAN EXPRESS. Besides, we have other payment
+                          methods like online Bank transfer, Bank deposit,
+                          bkash,Rocket, Nagad and other mobile banking systems.
+                          To know about the bank details or bkash, Rocket and
+                          Nagad details, Please you are requested to call our
+                          call-center at +8801773667000
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          Can I get Domestic & International flight tickets /
+                          air tickets / biman tickets at BimanTicket.com?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Yes, you can. Moreover, you can book for other
+                          countries domestic flights booking. Here, we provide
+                          all of your flight and travel services' solution for
+                          worldwide.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          Who should I call if I face any problem while trying
+                          to get any services from BimanTicket.com?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Probably you will not face any problem to book any
+                          services from our website because our dedicated
+                          sotwate development team are working and checking its'
+                          working capability everyday. Incase you face any
+                          problem please, you are requested to contact in
+                          +8801773667000. You also can contact us through
+                          facebook https://www.facebook.com/BimanTickets.com
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          Where can I find the flight details in BimanTicket.com
+                          including baggage allowance and base fare?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          We have designed our website to offer you with all
+                          details information of your desired searched products.
+                          During your flight search results, you can see all the
+                          details information including layovers, distance and
+                          duration, arrival and departure (local) times and full
+                          fare breakdown including fare, taxes and surcharges
+                          successively.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          How can I search flights / hotels with short transit /
+                          layover / multi-city /cheapest method?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          When you search for a flight you will see the first
+                          result appear on yor device interface based on
+                          cheapest airfare.After that, If you get the transit/
+                          layover time to be more shorter, we are offering you
+                          an option in the left filter where you can filter
+                          everything as your desire. Moreover, Where under the
+                          Time / Duration tab you can select the slider to find
+                          your expected Departure or Return Layover time
+                          automatically at your search page in a good graphical
+                          user interface.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          What should do If I want to date change or refund an
+                          air ticket / Biman ticket / flight ticket ?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Date Change: Change of air ticket / biman ticket date
+                          completely depends on the airline policy. If the
+                          airline allows changing of the flight date we charge
+                          airlines date change fee plus the fare difference of
+                          your changed date from a previously purchased date and
+                          a service fee of BDT 500 for each ticket.
+                        </p>
+
+                        <p class="refund">
+                          Refund: If applicable, will immediately be submitted
+                          to our bank after the refund request processed. From
+                          the submission/refund date Airlines generally take up
+                          to 15 business days to process the refund payment and
+                          transfer the funds into a customer’s account. Please
+                          note, some Airlines can take up to 5-6 weeks or until
+                          the next billing cycle. The refund should be converted
+                          to your local currency by your credit card company.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          Where can I get Tour Packages?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Already we have offered some basic tour packages in
+                          our website as we get many customers request, we
+                          request you to check our facebook page for newest tour
+                          packages or contact our call-center at +8801773667000
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          Can I have a hard-copy receipt sent by post?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Actually, We do not send hard copy receipts by post.
+                          We will send our customer an E-mail containing all of
+                          his/her booking details and confirmation scripts.
+                          Incase, if someone want a hard-copy then they can come
+                          to our office and then we will provide the hard-copy
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="heading20">
+                      <h5>
+                        <button
+                          class="btn btn-link"
+                          data-toggle="collapse"
+                          data-target="#collapse10"
+                          aria-expanded="true"
+                          aria-controls="collapse10"
+                        >
+                          If the fare increases after I book the air ticket what
+                          will be happen?
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse10"
+                      class="collapse show"
+                      aria-labelledby="heading20"
+                      data-parent="#accordionsing"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Generally, you will have to pay the full price
+                          difference if the fare of your booked ticket rise up,
+                          Otherwise we will refund you the amount to your
+                          account soon.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.tabs-wrapper -->
+
+          <!-- /.faq-forms -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- FAQ [END] -->
+
+      <!--=========================-->
+      <!--=        Footer         =-->
+      <!--=========================-->
+      <footer
+        id="footer"
+        class="footer-job-board wow fadeInDown bg-f"
+        data-wow-delay="0.2s"
+      >
+        <div class="container">
+          <div class="footer-inner">
+            <div class="row wow fadeInUp">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="widget footer-widget footer-widget-one">
+                  <a href="#" class="footer-logo"
+                    ><img src="assets/img/logo.png" alt="biman"
+                  /></a>
+
+                  <ul class="footer-social-link">
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+
+                  <p class="copyright-text">
+                    Copyright © 2022.
+                    <a href="index.html">BimanTicket.com.</a> All Rights
+                    Reserved.
+                  </p>
+                </div>
+                <!-- /.widget footer-widget -->
+              </div>
+              <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="widget footer-widget">
+                  <h3 class="widget-title">Address</h3>
+
+                  <ul class="footer-menu">
+                    <li>
+                      <a>28, 1/C Toyenbee Circular Road</a>
+                    </li>
+                    <li><a>Rahmania International Complex</a></li>
+                    <li><a>6th floor, room no: 9</a></li>
+                    <li><a>Motijheel C/A Dhaka</a></li>
+                    <li style="display: flex; align-items: center">
+                      <i style="color: #fff" class="fas fa-phone-alt"></i>
+                      <a style="margin-left: 5px" href="tel:+8801773667000"
+                        >+8801773667000</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.widget footer-widget -->
+              </div>
+              <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+              <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="widget footer-widget">
+                  <h3 class="widget-title">Company</h3>
+
+                  <ul class="footer-menu">
+                    <li><a href="#">Flight</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                  </ul>
+                </div>
+                <!-- /.widget footer-widget -->
+              </div>
+              <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="widget footer-widget">
+                  <h3 class="widget-title">Legal</h3>
+
+                  <ul class="footer-menu">
+                    <li><a href="./condition.html">Terms and Conditions</a></li>
+                    <li><a href="./faq.html">Faq</a></li>
+                    <li><a href="./payment.html">Fees and Charges</a></li>
+                    <li><a href="./privacy.html">Privacy Policy</a></li>
+                  </ul>
+                </div>
+                <!-- /.widget footer-widget -->
+              </div>
+              <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+              <div class="widget footer-widget footer-widget-mobile">
+                <a href="#" class="footer-logo"
+                  ><img src="assets/img/logo.png" alt="biman"
+                /></a>
+
+                <ul class="footer-social-link">
+                  <li>
+                    <a href="https://www.facebook.com/BimanTickets" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+
+                <p class="copyright-text">
+                  Copyright © 2022.
+<<<<<<< HEAD
+                  <a href="index.html">BimanTicket.com.</a> All Rights
+                  Reserved.
+                </p>
+              </div>
+              <!-- /.widget footer-widget -->
+            </div>
+            <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="widget footer-widget">
+                <h3 class="widget-title">Address</h3>
+
+                <ul class="footer-menu">
+                  <li>
+                    <a>1782(Bank Asia), 1 No Sorok, Commissioner Road,</a>
+                  </li>
+                
+                  <li><a>Mistir Dokan, East Jurain</a></li>
+                  <li><a>Dhaka -1204</a></li>
+                  <li style="display: flex; align-items: center">
+                    <i style="color: #fff" class="fas fa-phone-alt"></i>
+                    <a style="margin-left: 5px" href="tel:+8801773667000"
+                      >+8801773667000</a
+                    >
+                  </li>
+
+                  <li style="display: flex; align-items: center">
+                    <i style="color: #fff" class="fas fa-envelope"></i>
+                    <a
+                      style="margin-left: 5px"
+                      href="mailto:bimanticket24@gmail.com"
+                      >bimanticket24@gmail.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- /.widget footer-widget -->
+            </div>
+            <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="widget footer-widget">
+                <h3 class="widget-title">Company</h3>
+
+                <ul class="footer-menu">
+                  <li><a href="#">Flight</a></li>
+                  <li><a href="#">Hotel</a></li>
+                  <li><a href="./about.html">About Us</a></li>
+                </ul>
+              </div>
+              <!-- /.widget footer-widget -->
+            </div>
+            <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="widget footer-widget">
+                <h3 class="widget-title">Legal</h3>
+
+                <ul class="footer-menu">
+                  <li><a href="./condition.html">Terms and Conditions</a></li>
+                  <li><a href="./faq.html">Faq</a></li>
+                  <li><a href="./payment.html">Fees and Charges</a></li>
+                  <li><a href="./privacy.html">Privacy Policy</a></li>
+                </ul>
+              </div>
+              <!-- /.widget footer-widget -->
+            </div>
+            <!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+            <div class="widget footer-widget footer-widget-mobile">
+              <a href="#" class="footer-logo"
+                ><img src="assets/img/logo.png" alt="biman"
+              /></a>
+
+              <ul class="footer-social-link">
+                <li>
+                  <a href="https://www.facebook.com/BimanTickets" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+
+              <p class="copyright-text">
+                Copyright © 2022.
+                <a href="index.html">BimanTicket.com.</a> All Rights Reserved.
+              </p>
+=======
+                  <a href="index.html">BimanTicket.com.</a> All Rights Reserved.
+                </p>
+              </div>
+>>>>>>> ef3f159fad8103adb7002a09eeac3d6bec9f4abc
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.footer-inner -->
+        </div>
+        <!-- /.container -->
+      </footer>
+      <!-- /#footer -->
+    </div>
+
+    <!-- modal -->
+    <!-- <div class="modal fade" id="myModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Page is Under construction</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Please call us for Ticket:</p>
+            <div>
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:+8801773667000">+8801773667000</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Dependency Scripts -->
+    <script src="dependencies/jquery/jquery.min.js"></script>
+    <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dependencies/jquery.appear/jquery.appear.js"></script>
+    <script src="dependencies/wow/js/wow.min.js"></script>
+    <script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
+    <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+
+    <script>
+      $(window).on("load", function () {
+        $("#myModal").modal("show");
+      });
+    </script>
+
+    <!-- Site Scripts -->
+    <script src="./app.js"></script>
+    <script src="./header.js"></script>
+  </body>
+</html>
